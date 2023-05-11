@@ -5,7 +5,8 @@
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 int sms_count=0;
 // define phase control pins
-int phase[3] = {7, 8, 9};
+int phase[3] = {7, 8, 9}; 
+
 
 //*********************************************************
 int distance(int inputVoltage) {
